@@ -1,0 +1,34 @@
+/* src/components/FourColumnLayout.css */
+.four-column-layout {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .four-column-layout .card {
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .four-column-layout .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .four-column-layout .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .four-column-layout .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .four-column-layout .card-img-top {
+    border-radius: 8px 8px 0 0;
+  }
+  

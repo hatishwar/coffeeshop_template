@@ -1,0 +1,7 @@
+#seprator{
+    background-image: url('https://images.pexels.com/photos/6314543/pexels-photo-6314543.jpeg');
+     min-height: 200px;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+  }

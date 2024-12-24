@@ -1,0 +1,34 @@
+/* src/pages/Menu.css */
+.menu-page {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .menu-page h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .category-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .menu-card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-card-img {
+    height: 150px;
+    object-fit: cover;
+  }
+  

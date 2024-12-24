@@ -1,0 +1,35 @@
+/* src/components/FooterNav.css */
+.footernav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg, #2b2b2b, #4a4a4a);
+  }
+  
+  .footernav .nav-link {
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .footernav .nav-link:hover {
+    color: #ffc107;
+    transform: scale(1.1);
+  }
+  
+  .footernav .nav-link p {
+    margin: 0;
+    font-size: 0.85rem;
+  }
+  
+  .footernav p {
+    font-size: 0.8rem;
+    color: #ccc;
+  }
+  
+  
